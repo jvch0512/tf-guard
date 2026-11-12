@@ -1,0 +1,13 @@
+[package]
+name = "tf-guard"
+version = "0.1.0"
+edition = "2021"
+description = "Dependency-free Terraform misconfiguration scanner for AWS: open security groups, public S3, unencrypted storage, wildcard IAM."
+license = "MIT"
+repository = "https://github.com/jvch0512/tf-guard"
+
+[[bin]]
+name = "tf-guard"
+path = "src/main.rs"
+
+[dependencies]
